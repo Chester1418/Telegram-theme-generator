@@ -1,6 +1,4 @@
 # telegram-theme-generator
 Theme generator for telegram
 
-- [ ] All look nice
-- [ ] Fix colors
-- [ ] Something else
+Drop project, cos telegram already made it built in.(project was made in january)
