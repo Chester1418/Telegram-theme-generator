@@ -72,19 +72,6 @@ def download(hash,name):
     except:
         return render_template('download.html')
 
-
-
-#TODO эту хуйню с удалением
-# def delete():
-#     current_time = time.time()
-#     rootdir = '/var/www/warburton/warr/downloads/'
-#     for subdir, dirs, files in os.walk(rootdir):
-#         oldtime=(os.path.getmtime(subdir))
-#         if (current_time - oldtime) >20:
-#             import shutil
-#             # print(subdir)
-#             # shutil.rmtree(subdir)
-
 if __name__ == "__main__":
 
     app.run(host='0.0.0.0', port=8080,debug=DEBUG)
